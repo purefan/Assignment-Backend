@@ -2,7 +2,7 @@ Description
 ------------------
 ProspectEye most crucial part of the system is the visitorlist. ProspectEye Customers login to the system and wants to look at the list in order to see visitors/leads that have visited the customers website.
 
-The customers can setup any form of filter that they want to look at (ex. all visitors that have looked at the productpage). Filters have different complexity and we allow our customers to make were difficult ones for the database to query.
+The customers can setup any form of filter that they want to look at (ex. all visitors that have looked at the productpage). Filters have different complexity and we allow our customers to make very difficult ones for the database to query.
 
 We update the data for every filter every 5 minute.
 
@@ -15,9 +15,9 @@ User -> Cache <--> MySQL
 
 It will also be unnecassary to cache every filter because not every filter will be queried at all during a day. There have to be logic to update and store cache data depending on heavily used filter/queries
 
-Prequisites
+Prerequisites
 ------------------
-the database have a table called visit. This table contains all the visits for every customer. The are separeted by accountid and the all have a timestamp.
+The database have a table called visit. This table contains all the visits for every customer. The are separeted by accountid and the all have a timestamp.
 
 Structure of visit
 (Id, VisitTime, VisitorName, Score, PageviewCount, RefererUrl, CountryCode, CityName)
