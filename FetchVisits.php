@@ -11,10 +11,8 @@
 		}
 		
 		function getVisits($accountId) {
-		
-			// check if this accountId should be cached
 			
-			// check if we could fetch from cache
+			// check if we could fetch from cache or need to fetch from MySQL
 			
 			// return result
 			
