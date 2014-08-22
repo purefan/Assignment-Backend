@@ -9,6 +9,8 @@
 		}
 		
 		function run() {
+			
+			// CONDITIONAL JOB. Use this if this makes the assignment better. Your choose!
 		
 			// run the job to update which visits should be stored in the cache
 			
