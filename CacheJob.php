@@ -2,7 +2,7 @@
 
 	namespace ProspectEye\CacheJob;
 	
-	class CacheJob() {
+	class CacheJob {
 	
 		function __construct() {
 		
